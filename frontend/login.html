@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Login — Bibliotec
+  </title>
+  <link href="img/logo.png" rel="icon" type="image/png"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="topbar">
+   <a class="brand" href="index.html">
+    <img alt="Bibliotec" src="img/logo.png"/>
+   </a>
+   <nav class="nav">
+    <a href="index.html">
+     Início
+    </a>
+    <a href="catalogo.html">
+     Livros
+    </a>
+    <a href="biblioteca.html">
+     Minha biblioteca
+    </a>
+    <a href="comunidade.html">
+     Comunidade
+    </a>
+    <a href="contato.html">
+     Contato
+    </a>
+   </nav>
+   <div class="top-actions">
+    <button class="theme-btn" onclick="toggleTheme()">
+     ◐
+    </button>
+    <a class="icon-btn" href="favoritos.html">
+     ♡
+    </a>
+    <a class="login-btn" href="login.html">
+     Entrar
+    </a>
+   </div>
+   <button class="menu-btn" onclick="toggleMenu()">
+    ☰
+   </button>
+  </header>
+  <main>
+   <section class="auth">
+    <div class="auth-card">
+     <span class="eyebrow">
+      BEM-VINDO
+     </span>
+     <h1>
+      Entrar no Bibliotec
+     </h1>
+     <p>
+      Acesse sua biblioteca pessoal.
+     </p>
+     <form onsubmit="fakeSubmit(event)">
+      <label>
+       E-mail
+       <input required="" type="email"/>
+      </label>
+      <label>
+       Senha
+       <input required="" type="password"/>
+      </label>
+      <a class="forgot" href="#">
+       Esqueci minha senha
+      </a>
+      <button class="btn primary full">
+       Entrar
+      </button>
+     </form>
+     <p class="auth-bottom">
+      Ainda não tem conta?
+      <a href="cadastro.html">
+       Criar conta
+      </a>
+     </p>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div>
+    <div class="footer-brand">
+     <img alt="Bibliotec" class="footer-logo" src="img/logo.png"/>
+     <strong>
+      Bibliotec
+     </strong>
+    </div>
+    <p>
+     Uma biblioteca digital para aproximar pessoas da literatura.
+    </p>
+   </div>
+   <div>
+    <a href="contato.html">
+     Contato
+    </a>
+    <a href="catalogo.html">
+     Livros
+    </a>
+    <a href="comunidade.html">
+     Comunidade
+    </a>
+   </div>
+   <div>
+    <small>
+     © 2026 Bibliotec
+    </small>
+   </div>
+  </footer>
+  <script src="js/app.js">
+  </script>
+ </body>
+</html>

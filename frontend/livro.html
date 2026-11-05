@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Dom Casmurro — Bibliotec
+  </title>
+  <link href="img/logo.png" rel="icon" type="image/png"/>
+  <link href="css/style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="topbar">
+   <a class="brand" href="index.html">
+    <img alt="Bibliotec" src="img/logo.png"/>
+   </a>
+   <nav class="nav">
+    <a href="index.html">
+     Início
+    </a>
+    <a href="catalogo.html">
+     Livros
+    </a>
+    <a href="biblioteca.html">
+     Minha biblioteca
+    </a>
+    <a href="comunidade.html">
+     Comunidade
+    </a>
+    <a href="contato.html">
+     Contato
+    </a>
+   </nav>
+   <div class="top-actions">
+    <button class="theme-btn" onclick="toggleTheme()">
+     ◐
+    </button>
+    <a class="icon-btn" href="favoritos.html">
+     ♡
+    </a>
+    <a class="login-btn" href="login.html">
+     Entrar
+    </a>
+   </div>
+   <button class="menu-btn" onclick="toggleMenu()">
+    ☰
+   </button>
+  </header>
+  <main>
+   <section class="book-detail">
+    <div class="detail-cover">
+     <div class="large-cover">
+      <small>
+       Bibliotec
+      </small>
+      <strong>
+       Dom
+       <br/>
+       Casmurro
+      </strong>
+      <span>
+       Machado de Assis
+      </span>
+     </div>
+    </div>
+    <div class="detail-main">
+     <span class="tag">
+      ROMANCE • CLÁSSICO
+     </span>
+     <h1>
+      Dom Casmurro
+     </h1>
+     <h2>
+      Machado de Assis
+     </h2>
+     <div class="rating-big">
+      ★★★★★
+      <b>
+       5.0
+      </b>
+      <span>
+       (128 avaliações)
+      </span>
+     </div>
+     <p class="lead">
+      Uma das obras mais conhecidas da literatura brasileira, narrada por Bentinho em suas memórias.
+     </p>
+     <div class="detail-actions">
+      <a class="btn primary" href="leitura.html">
+       📖 Ler agora
+      </a>
+      <button class="btn secondary" onclick="toggleFavorite(this)">
+       ♡ Favoritar
+      </button>
+     </div>
+     <div class="meta-grid">
+      <div>
+       <small>
+        Ano
+       </small>
+       <b>
+        1899
+       </b>
+      </div>
+      <div>
+       <small>
+        Gênero
+       </small>
+       <b>
+        Romance
+       </b>
+      </div>
+      <div>
+       <small>
+        Páginas
+       </small>
+       <b>
+        250
+       </b>
+      </div>
+      <div>
+       <small>
+        Coleção
+       </small>
+       <b>
+        Clássicos
+       </b>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section">
+    <h2>
+     Sobre o livro
+    </h2>
+    <p class="long-text">
+     Dom Casmurro acompanha as memórias de Bentinho, sua relação com Capitu e os acontecimentos que marcaram sua vida. A obra permite diferentes interpretações e permanece como um clássico da literatura brasileira.
+    </p>
+   </section>
+   <section class="section">
+    <div class="section-head">
+     <h2>
+      Avaliações
+     </h2>
+     <a class="text-link" href="comunidade.html">
+      Ver comentários →
+     </a>
+    </div>
+    <div class="review">
+     <div class="avatar">
+      M
+     </div>
+     <div>
+      <b>
+       Mariana
+      </b>
+      <div class="stars">
+       ★★★★★
+      </div>
+      <p>
+       Uma leitura que sempre rende uma nova interpretação.
+      </p>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="footer">
+   <div>
+    <div class="footer-brand">
+     <img alt="Bibliotec" class="footer-logo" src="img/logo.png"/>
+     <strong>
+      Bibliotec
+     </strong>
+    </div>
+    <p>
+     Uma biblioteca digital para aproximar pessoas da literatura.
+    </p>
+   </div>
+   <div>
+    <a href="contato.html">
+     Contato
+    </a>
+    <a href="catalogo.html">
+     Livros
+    </a>
+    <a href="comunidade.html">
+     Comunidade
+    </a>
+   </div>
+   <div>
+    <small>
+     © 2026 Bibliotec
+    </small>
+   </div>
+  </footer>
+  <script src="js/app.js">
+  </script>
+ </body>
+</html>
